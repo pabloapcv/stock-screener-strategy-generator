@@ -51,7 +51,6 @@ def _position_value_at_price(idea: TradeIdea, stock_price: float) -> float:
 def pnl_at_price(idea: TradeIdea, stock_price: float, size: int = 1) -> float:
     """P&L at expiry for a given stock price and position size."""
     if idea.strategy_type == "stock":
-        shares = size if idea.strategy_type == "stock" else size * 100
         # For stock, size IS the share count
         return (stock_price - idea.stock_price) * size
 

@@ -8,7 +8,7 @@ from datetime import datetime
 from src.config import load_config
 from src.data.fetcher import StockData, fetch_universe
 from src.data.options import analyze_options
-from src.data.options_chain import fetch_options_chain, liquidity_ok
+from src.data.options_chain import fetch_options_chain
 from src.ideas.strategies import (
     TradeIdea,
     bull_call_spread,

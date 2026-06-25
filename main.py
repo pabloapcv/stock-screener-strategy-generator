@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import argparse
 import logging
-import sys
 
 from src.config import load_config
 from src.pipeline import ScreeningPipeline
@@ -357,7 +356,6 @@ Daily Workflow:
         return
 
     if args.command == "daily":
-        from src.config import load_config
         from src.daily.morning import run_morning
 
         result = run_morning(
@@ -370,7 +368,7 @@ Daily Workflow:
         if args.quiet:
             from rich.console import Console
             c = Console()
-            c.print(f"[green]Morning run complete.[/green]")
+            c.print("[green]Morning run complete.[/green]")
             c.print(f"  Ideas: {result.ideas_count}  |  Opened: {result.opened_count}")
             if result.report_path:
                 c.print(f"  Report: {result.report_path}")
