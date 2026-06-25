@@ -1,0 +1,33 @@
+============================================================
+  MORNING TRADING REPORT — Example Output
+============================================================
+
+PORTFOLIO
+----------------------------------------
+  Equity:      $100,299  (+0.3%)
+  Cash:        $93,599
+  Realized:    +$0
+  Unrealized:  +$299
+  Starting:    $100,000
+
+OPEN POSITIONS
+----------------------------------------
+  TER    Stock Swing Trade      $  462.57  P&L:       +$27  (+0.6%)
+         Target $505.88  |  Stop $446.09
+  ANET   Bull Call Spread       $  168.09  P&L:       +$40  (+0.1%)
+         Target $181.40  |  Stop $156.67
+  GLW    Long Call              $  226.01  P&L:      +$232  (+0.4%)
+
+TODAY'S IDEAS (2)
+----------------------------------------
+  1. TER  BULLISH  high conviction  Score 80
+     breakout → Stock Swing Trade  (2-6 weeks)
+     Entry $462.34  Target $508.57  Stop $448.47
+
+  2. GLW  BULLISH  high conviction  Score 66
+     breakout → Long Call  (2-6 weeks)
+     BUY 1x CALL $230 @ $18.25
+
+------------------------------------------------------------
+Not financial advice. Verify prices in your broker before trading.
+============================================================
